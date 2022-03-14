@@ -1,0 +1,96 @@
+/* CSS added --------- */
+html,
+body {
+  height: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+/* CSS added --------- */
+
+.App {
+  /* height: 100%;  this is hiding top images */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-viewer {
+  margin: 40px;
+}
+
+.image-viewer .image-viewer-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.image-viewer .image-viewer-images .image-viewer-image-with-caption {
+  margin: 0;
+}
+
+.image-viewer .image-viewer-images .image-viewer-image {
+  margin: 10px;
+  cursor: pointer;
+}
+
+.image-viewer .image-viewer-images .image-viewer-caption {
+  text-align: center;
+}
+
+.image-viewer .image-viewer-controls {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-viewer .image-viewer-controls .image-viewer-control {
+  margin: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-viewer .image-viewer-controls .image-viewer-page-slider {
+  margin: 0 6px;
+}
+
+.image-viewer .image-viewer-controls .image-viewer-pagesize-input {
+  width: 50px;
+  margin-right: 6px;
+}
+
+.fullscreen-modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fullscreen-modal .fullscreen-modal-image {
+}
+
+/* CSS added --------- */
+.image-viewer-image-with-caption {
+  width: 700px;
+  height: 600px;
+  text-align: center;
+}
+.image-viewer-image-with-caption img {
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+}
+.fullscreen-modal-image {
+  width: 90%;
+  height: 90%;
+  object-fit: cover;
+}
+/* CSS added --------- */

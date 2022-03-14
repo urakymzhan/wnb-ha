@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://storage.googleapis.com/wandb-challenge/hedgehog.jpg",
+    "label": "sanic"
+  },
+  {
+    "url": "https://storage.googleapis.com/wandb-challenge/puppy-kitten.jpg",
+    "label": "bffs"
+  },
+  {
+    "url": "https://storage.googleapis.com/wandb-challenge/duckling.jpg",
+    "label": "flamingo"
+  },
+  {
+    "url": "https://storage.googleapis.com/wandb-challenge/deer.jpg",
+    "label": "bambi"
+  },
+  {
+    "url": "https://storage.googleapis.com/wandb-challenge/bun.jpg",
+    "label": "please sir may i have some moar"
+  },
+  {
+    "url": "https://storage.googleapis.com/wandb-challenge/penguins.webp",
+    "label": "happy feet"
+  },
+  {
+    "url": "https://storage.googleapis.com/wandb-challenge/piglet.jpg",
+    "label": "that'll do"
+  },
+  {
+    "url": "https://storage.googleapis.com/wandb-challenge/koala.jpg",
+    "label": "high on leaves"
+  },
+  {
+    "url": "https://storage.googleapis.com/wandb-challenge/seal.jpg",
+    "label": "spheal"
+  },
+  {
+    "url": "https://storage.googleapis.com/wandb-challenge/tiger.webp",
+    "label": "shere khat"
+  }
+]
